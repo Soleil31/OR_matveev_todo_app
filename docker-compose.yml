@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: 
+      todo
+    build:
+      context: .
+    volumes:
+      - ./database/todo.db:/app/database/todo.db
+    ports:
+      - 8000:80

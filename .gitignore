@@ -1,0 +1,4 @@
+/database/todo.db
+*__pycache__*
+.vscode
+.idea/
